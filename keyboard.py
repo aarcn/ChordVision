@@ -3,10 +3,9 @@ def create_keyboard(canvas):
     black_key_width = 20
     white_key_height = 100
     black_key_height = 60
-
     keys = []
 
-    # Fourth Octave
+    # Fourth Octave (White keys)
     C4 = canvas.create_rectangle(0 * white_key_width, 0, 1 * white_key_width,
                                  white_key_height, fill="white", outline="black")
     D4 = canvas.create_rectangle(1 * white_key_width, 0, 2 * white_key_width,
@@ -22,23 +21,7 @@ def create_keyboard(canvas):
     B4 = canvas.create_rectangle(6 * white_key_width, 0, 7 * white_key_width,
                                  white_key_height, fill="white", outline="black")
 
-    # Fifth Octave
-    C5 = canvas.create_rectangle(0 * white_key_width, 0, 1 * white_key_width,
-                                 white_key_height, fill="white", outline="black")
-    D5 = canvas.create_rectangle(1 * white_key_width, 0, 2 * white_key_width,
-                                 white_key_height, fill="white", outline="black")
-    E5 = canvas.create_rectangle(2 * white_key_width, 0, 3 * white_key_width,
-                                 white_key_height, fill="white", outline="black")
-    F5 = canvas.create_rectangle(3 * white_key_width, 0, 4 * white_key_width,
-                                 white_key_height, fill="white", outline="black")
-    G5 = canvas.create_rectangle(4 * white_key_width, 0, 5 * white_key_width,
-                                 white_key_height, fill="white", outline="black")
-    A5 = canvas.create_rectangle(5 * white_key_width, 0, 6 * white_key_width,
-                                 white_key_height, fill="white", outline="black")
-    B5 = canvas.create_rectangle(6 * white_key_width, 0, 7 * white_key_width,
-                                 white_key_height, fill="white", outline="black")
-
-    # Fourth Octave
+    # Fourth Octave (Black keys)
     C_sharp4 = canvas.create_rectangle(1 * white_key_width - black_key_width // 2, 0,
                                        1 * white_key_width + black_key_width // 2,
                                        black_key_height, fill="black", outline="black")
@@ -55,21 +38,37 @@ def create_keyboard(canvas):
                                        6 * white_key_width + black_key_width // 2,
                                        black_key_height, fill="black", outline="black")
 
-    # Fifth Octave
-    C_sharp5 = canvas.create_rectangle(1 * white_key_width - black_key_width // 2, 0,
-                                       1 * white_key_width + black_key_width // 2,
+    # Fifth Octave (White keys)
+    C5 = canvas.create_rectangle(7 * white_key_width, 0, 8 * white_key_width,
+                                 white_key_height, fill="white", outline="black")
+    D5 = canvas.create_rectangle(8 * white_key_width, 0, 9 * white_key_width,
+                                 white_key_height, fill="white", outline="black")
+    E5 = canvas.create_rectangle(9 * white_key_width, 0, 10 * white_key_width,
+                                 white_key_height, fill="white", outline="black")
+    F5 = canvas.create_rectangle(10 * white_key_width, 0, 11 * white_key_width,
+                                 white_key_height, fill="white", outline="black")
+    G5 = canvas.create_rectangle(11 * white_key_width, 0, 12 * white_key_width,
+                                 white_key_height, fill="white", outline="black")
+    A5 = canvas.create_rectangle(12 * white_key_width, 0, 13 * white_key_width,
+                                 white_key_height, fill="white", outline="black")
+    B5 = canvas.create_rectangle(13 * white_key_width, 0, 14 * white_key_width,
+                                 white_key_height, fill="white", outline="black")
+
+    # Fifth Octave (Black keys)
+    C_sharp5 = canvas.create_rectangle(8 * white_key_width - black_key_width // 2, 0,
+                                       8 * white_key_width + black_key_width // 2,
                                        black_key_height, fill="black", outline="black")
-    D_sharp5 = canvas.create_rectangle(2 * white_key_width - black_key_width // 2, 0,
-                                       2 * white_key_width + black_key_width // 2,
+    D_sharp5 = canvas.create_rectangle(9 * white_key_width - black_key_width // 2, 0,
+                                       9 * white_key_width + black_key_width // 2,
                                        black_key_height, fill="black", outline="black")
-    F_sharp5 = canvas.create_rectangle(4 * white_key_width - black_key_width // 2, 0,
-                                       4 * white_key_width + black_key_width // 2,
+    F_sharp5 = canvas.create_rectangle(11 * white_key_width - black_key_width // 2, 0,
+                                       11 * white_key_width + black_key_width // 2,
                                        black_key_height, fill="black", outline="black")
-    G_sharp5 = canvas.create_rectangle(5 * white_key_width - black_key_width // 2, 0,
-                                       5 * white_key_width + black_key_width // 2,
+    G_sharp5 = canvas.create_rectangle(12 * white_key_width - black_key_width // 2, 0,
+                                       12 * white_key_width + black_key_width // 2,
                                        black_key_height, fill="black", outline="black")
-    A_sharp5 = canvas.create_rectangle(6 * white_key_width - black_key_width // 2, 0,
-                                       6 * white_key_width + black_key_width // 2,
+    A_sharp5 = canvas.create_rectangle(13 * white_key_width - black_key_width // 2, 0,
+                                       13 * white_key_width + black_key_width // 2,
                                        black_key_height, fill="black", outline="black")
 
     keys.append(C4)
