@@ -1,4 +1,9 @@
 # ChordVision 
 #### Simple chord visualizer
 
-Suggested chords coming soon!
+To-do list:
+<ul>
+<li>Chord progressions</li>
+<li>Suggested chords</li>
+<li>Roman numeral analysis</li>
+</ul>
