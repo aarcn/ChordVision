@@ -117,110 +117,110 @@ def create_keyboard(canvas):
     A_sharp0 = canvas.create_rectangle((1 * white_key_width) - (black_key_width // 2), 0,
                                        (1 * white_key_width) + (black_key_width // 2), black_key_height, fill="black",
                                        outline="black")
-    C_sharp1 = canvas.create_rectangle((2 * white_key_width) - (black_key_width // 2), 0,
-                                       (2 * white_key_width) + (black_key_width // 2), black_key_height, fill="black",
-                                       outline="black")
-    D_sharp1 = canvas.create_rectangle((3 * white_key_width) - (black_key_width // 2), 0,
+    C_sharp1 = canvas.create_rectangle((3 * white_key_width) - (black_key_width // 2), 0,
                                        (3 * white_key_width) + (black_key_width // 2), black_key_height, fill="black",
                                        outline="black")
-    F_sharp1 = canvas.create_rectangle((5 * white_key_width) - (black_key_width // 2), 0,
-                                       (5 * white_key_width) + (black_key_width // 2), black_key_height, fill="black",
+    D_sharp1 = canvas.create_rectangle((4 * white_key_width) - (black_key_width // 2), 0,
+                                       (4 * white_key_width) + (black_key_width // 2), black_key_height, fill="black",
                                        outline="black")
-    G_sharp1 = canvas.create_rectangle((6 * white_key_width) - (black_key_width // 2), 0,
+    F_sharp1 = canvas.create_rectangle((6 * white_key_width) - (black_key_width // 2), 0,
                                        (6 * white_key_width) + (black_key_width // 2), black_key_height, fill="black",
                                        outline="black")
-    A_sharp1 = canvas.create_rectangle((7 * white_key_width) - (black_key_width // 2), 0,
+    G_sharp1 = canvas.create_rectangle((7 * white_key_width) - (black_key_width // 2), 0,
                                        (7 * white_key_width) + (black_key_width // 2), black_key_height, fill="black",
                                        outline="black")
-    C_sharp2 = canvas.create_rectangle((9 * white_key_width) - (black_key_width // 2), 0,
-                                       (9 * white_key_width) + (black_key_width // 2), black_key_height, fill="black",
+    A_sharp1 = canvas.create_rectangle((8 * white_key_width) - (black_key_width // 2), 0,
+                                       (8 * white_key_width) + (black_key_width // 2), black_key_height, fill="black",
                                        outline="black")
-    D_sharp2 = canvas.create_rectangle((10 * white_key_width) - (black_key_width // 2), 0,
+    C_sharp2 = canvas.create_rectangle((10 * white_key_width) - (black_key_width // 2), 0,
                                        (10 * white_key_width) + (black_key_width // 2), black_key_height, fill="black",
                                        outline="black")
-    F_sharp2 = canvas.create_rectangle((12 * white_key_width) - (black_key_width // 2), 0,
-                                       (12 * white_key_width) + (black_key_width // 2), black_key_height, fill="black",
+    D_sharp2 = canvas.create_rectangle((11 * white_key_width) - (black_key_width // 2), 0,
+                                       (11 * white_key_width) + (black_key_width // 2), black_key_height, fill="black",
                                        outline="black")
-    G_sharp2 = canvas.create_rectangle((13 * white_key_width) - (black_key_width // 2), 0,
+    F_sharp2 = canvas.create_rectangle((13 * white_key_width) - (black_key_width // 2), 0,
                                        (13 * white_key_width) + (black_key_width // 2), black_key_height, fill="black",
                                        outline="black")
-    A_sharp2 = canvas.create_rectangle((14 * white_key_width) - (black_key_width // 2), 0,
+    G_sharp2 = canvas.create_rectangle((14 * white_key_width) - (black_key_width // 2), 0,
                                        (14 * white_key_width) + (black_key_width // 2), black_key_height, fill="black",
                                        outline="black")
-    C_sharp3 = canvas.create_rectangle((16 * white_key_width) - (black_key_width // 2), 0,
-                                       (16 * white_key_width) + (black_key_width // 2), black_key_height, fill="black",
+    A_sharp2 = canvas.create_rectangle((15 * white_key_width) - (black_key_width // 2), 0,
+                                       (15 * white_key_width) + (black_key_width // 2), black_key_height, fill="black",
                                        outline="black")
-    D_sharp3 = canvas.create_rectangle((17 * white_key_width) - (black_key_width // 2), 0,
+    C_sharp3 = canvas.create_rectangle((17 * white_key_width) - (black_key_width // 2), 0,
                                        (17 * white_key_width) + (black_key_width // 2), black_key_height, fill="black",
                                        outline="black")
-    F_sharp3 = canvas.create_rectangle((19 * white_key_width) - (black_key_width // 2), 0,
-                                       (19 * white_key_width) + (black_key_width // 2), black_key_height, fill="black",
+    D_sharp3 = canvas.create_rectangle((18 * white_key_width) - (black_key_width // 2), 0,
+                                       (18 * white_key_width) + (black_key_width // 2), black_key_height, fill="black",
                                        outline="black")
-    G_sharp3 = canvas.create_rectangle((20 * white_key_width) - (black_key_width // 2), 0,
+    F_sharp3 = canvas.create_rectangle((20 * white_key_width) - (black_key_width // 2), 0,
                                        (20 * white_key_width) + (black_key_width // 2), black_key_height, fill="black",
                                        outline="black")
-    A_sharp3 = canvas.create_rectangle((21 * white_key_width) - (black_key_width // 2), 0,
+    G_sharp3 = canvas.create_rectangle((21 * white_key_width) - (black_key_width // 2), 0,
                                        (21 * white_key_width) + (black_key_width // 2), black_key_height, fill="black",
                                        outline="black")
-    C_sharp4 = canvas.create_rectangle((23 * white_key_width) - (black_key_width // 2), 0,
-                                       (23 * white_key_width) + (black_key_width // 2), black_key_height, fill="black",
+    A_sharp3 = canvas.create_rectangle((22 * white_key_width) - (black_key_width // 2), 0,
+                                       (22 * white_key_width) + (black_key_width // 2), black_key_height, fill="black",
                                        outline="black")
-    D_sharp4 = canvas.create_rectangle((24 * white_key_width) - (black_key_width // 2), 0,
+    C_sharp4 = canvas.create_rectangle((24 * white_key_width) - (black_key_width // 2), 0,
                                        (24 * white_key_width) + (black_key_width // 2), black_key_height, fill="black",
                                        outline="black")
-    F_sharp4 = canvas.create_rectangle((26 * white_key_width) - (black_key_width // 2), 0,
-                                       (26 * white_key_width) + (black_key_width // 2), black_key_height, fill="black",
+    D_sharp4 = canvas.create_rectangle((25 * white_key_width) - (black_key_width // 2), 0,
+                                       (25 * white_key_width) + (black_key_width // 2), black_key_height, fill="black",
                                        outline="black")
-    G_sharp4 = canvas.create_rectangle((27 * white_key_width) - (black_key_width // 2), 0,
+    F_sharp4 = canvas.create_rectangle((27 * white_key_width) - (black_key_width // 2), 0,
                                        (27 * white_key_width) + (black_key_width // 2), black_key_height, fill="black",
                                        outline="black")
-    A_sharp4 = canvas.create_rectangle((28 * white_key_width) - (black_key_width // 2), 0,
+    G_sharp4 = canvas.create_rectangle((28 * white_key_width) - (black_key_width // 2), 0,
                                        (28 * white_key_width) + (black_key_width // 2), black_key_height, fill="black",
                                        outline="black")
-    C_sharp5 = canvas.create_rectangle((30 * white_key_width) - (black_key_width // 2), 0,
-                                       (30 * white_key_width) + (black_key_width // 2), black_key_height, fill="black",
+    A_sharp4 = canvas.create_rectangle((29 * white_key_width) - (black_key_width // 2), 0,
+                                       (29 * white_key_width) + (black_key_width // 2), black_key_height, fill="black",
                                        outline="black")
-    D_sharp5 = canvas.create_rectangle((31 * white_key_width) - (black_key_width // 2), 0,
+    C_sharp5 = canvas.create_rectangle((31 * white_key_width) - (black_key_width // 2), 0,
                                        (31 * white_key_width) + (black_key_width // 2), black_key_height, fill="black",
                                        outline="black")
-    F_sharp5 = canvas.create_rectangle((33 * white_key_width) - (black_key_width // 2), 0,
-                                       (33 * white_key_width) + (black_key_width // 2), black_key_height, fill="black",
+    D_sharp5 = canvas.create_rectangle((32 * white_key_width) - (black_key_width // 2), 0,
+                                       (32 * white_key_width) + (black_key_width // 2), black_key_height, fill="black",
                                        outline="black")
-    G_sharp5 = canvas.create_rectangle((34 * white_key_width) - (black_key_width // 2), 0,
+    F_sharp5 = canvas.create_rectangle((34 * white_key_width) - (black_key_width // 2), 0,
                                        (34 * white_key_width) + (black_key_width // 2), black_key_height, fill="black",
                                        outline="black")
-    A_sharp5 = canvas.create_rectangle((35 * white_key_width) - (black_key_width // 2), 0,
+    G_sharp5 = canvas.create_rectangle((35 * white_key_width) - (black_key_width // 2), 0,
                                        (35 * white_key_width) + (black_key_width // 2), black_key_height, fill="black",
                                        outline="black")
-    C_sharp6 = canvas.create_rectangle((37 * white_key_width) - (black_key_width // 2), 0,
-                                       (37 * white_key_width) + (black_key_width // 2), black_key_height, fill="black",
+    A_sharp5 = canvas.create_rectangle((36 * white_key_width) - (black_key_width // 2), 0,
+                                       (36 * white_key_width) + (black_key_width // 2), black_key_height, fill="black",
                                        outline="black")
-    D_sharp6 = canvas.create_rectangle((38 * white_key_width) - (black_key_width // 2), 0,
+    C_sharp6 = canvas.create_rectangle((38 * white_key_width) - (black_key_width // 2), 0,
                                        (38 * white_key_width) + (black_key_width // 2), black_key_height, fill="black",
                                        outline="black")
-    F_sharp6 = canvas.create_rectangle((40 * white_key_width) - (black_key_width // 2), 0,
-                                       (40 * white_key_width) + (black_key_width // 2), black_key_height, fill="black",
+    D_sharp6 = canvas.create_rectangle((39 * white_key_width) - (black_key_width // 2), 0,
+                                       (39 * white_key_width) + (black_key_width // 2), black_key_height, fill="black",
                                        outline="black")
-    G_sharp6 = canvas.create_rectangle((41 * white_key_width) - (black_key_width // 2), 0,
+    F_sharp6 = canvas.create_rectangle((41 * white_key_width) - (black_key_width // 2), 0,
                                        (41 * white_key_width) + (black_key_width // 2), black_key_height, fill="black",
                                        outline="black")
-    A_sharp6 = canvas.create_rectangle((42 * white_key_width) - (black_key_width // 2), 0,
+    G_sharp6 = canvas.create_rectangle((42 * white_key_width) - (black_key_width // 2), 0,
                                        (42 * white_key_width) + (black_key_width // 2), black_key_height, fill="black",
                                        outline="black")
-    C_sharp7 = canvas.create_rectangle((44 * white_key_width) - (black_key_width // 2), 0,
-                                       (44 * white_key_width) + (black_key_width // 2), black_key_height, fill="black",
+    A_sharp6 = canvas.create_rectangle((43 * white_key_width) - (black_key_width // 2), 0,
+                                       (43 * white_key_width) + (black_key_width // 2), black_key_height, fill="black",
                                        outline="black")
-    D_sharp7 = canvas.create_rectangle((45 * white_key_width) - (black_key_width // 2), 0,
+    C_sharp7 = canvas.create_rectangle((45 * white_key_width) - (black_key_width // 2), 0,
                                        (45 * white_key_width) + (black_key_width // 2), black_key_height, fill="black",
                                        outline="black")
-    F_sharp7 = canvas.create_rectangle((47 * white_key_width) - (black_key_width // 2), 0,
-                                       (47 * white_key_width) + (black_key_width // 2), black_key_height, fill="black",
+    D_sharp7 = canvas.create_rectangle((46 * white_key_width) - (black_key_width // 2), 0,
+                                       (46 * white_key_width) + (black_key_width // 2), black_key_height, fill="black",
                                        outline="black")
-    G_sharp7 = canvas.create_rectangle((48 * white_key_width) - (black_key_width // 2), 0,
+    F_sharp7 = canvas.create_rectangle((48 * white_key_width) - (black_key_width // 2), 0,
                                        (48 * white_key_width) + (black_key_width // 2), black_key_height, fill="black",
                                        outline="black")
-    A_sharp7 = canvas.create_rectangle((49 * white_key_width) - (black_key_width // 2), 0,
+    G_sharp7 = canvas.create_rectangle((49 * white_key_width) - (black_key_width // 2), 0,
                                        (49 * white_key_width) + (black_key_width // 2), black_key_height, fill="black",
+                                       outline="black")
+    A_sharp7 = canvas.create_rectangle((50 * white_key_width) - (black_key_width // 2), 0,
+                                       (50 * white_key_width) + (black_key_width // 2), black_key_height, fill="black",
                                        outline="black")
 
     keys.append(A0)
@@ -320,40 +320,40 @@ note_positions = {
         "A0": 0, "A#0": 1, "Bb0": 1, "B0": 2,
 
         # Second Octave (C1-B1)
-        "C1": 3, "C#1": 4, "Db1": 4, "D1": 5, "D#1": 6, "Eb1": 6,
-        "E1": 7, "F1": 8, "F#1": 9, "Gb1": 9, "G1": 10, "G#1": 11, "Ab1": 11,
+        "Cb1": 2, "C1": 3, "C#1": 4, "Db1": 4, "D1": 5, "D#1": 6, "Eb1": 6,
+        "E1": 7, "Fb1": 7, "F1": 8, "F#1": 9, "Gb1": 9, "G1": 10, "G#1": 11, "Ab1": 11,
         "A1": 12, "A#1": 13, "Bb1": 13, "B1": 14,
 
         # Third Octave (C2-B2)
-        "C2": 15, "C#2": 16, "Db2": 16, "D2": 17, "D#2": 18, "Eb2": 18,
-        "E2": 19, "F2": 20, "F#2": 21, "Gb2": 21, "G2": 22, "G#2": 23, "Ab2": 23,
+        "Cb2": 14, "C2": 15, "C#2": 16, "Db2": 16, "D2": 17, "D#2": 18, "Eb2": 18,
+        "E2": 19, "Fb2": 19, "F2": 20, "F#2": 21, "Gb2": 21, "G2": 22, "G#2": 23, "Ab2": 23,
         "A2": 24, "A#2": 25, "Bb2": 25, "B2": 26,
 
         # Fourth Octave (C3-B3)
-        "C3": 27, "C#3": 28, "Db3": 28, "D3": 29, "D#3": 30, "Eb3": 30,
-        "E3": 31, "F3": 32, "F#3": 33, "Gb3": 33, "G3": 34, "G#3": 35, "Ab3": 35,
+        "Cb3": 26, "C3": 27, "C#3": 28, "Db3": 28, "D3": 29, "D#3": 30, "Eb3": 30,
+        "E3": 31, "Fb3": 31, "F3": 32, "F#3": 33, "Gb3": 33, "G3": 34, "G#3": 35, "Ab3": 35,
         "A3": 36, "A#3": 37, "Bb3": 37, "B3": 38,
 
         # Fifth Octave (C4-B4)
-        "C4": 39, "C#4": 40, "Db4": 40, "D4": 41, "D#4": 42, "Eb4": 42,
-        "E4": 43, "F4": 44, "F#4": 45, "Gb4": 45, "G4": 46, "G#4": 47, "Ab4": 47,
+        "Cb4": 38, "C4": 39, "C#4": 40, "Db4": 40, "D4": 41, "D#4": 42, "Eb4": 42,
+        "E4": 43, "Fb4": 43, "F4": 44, "F#4": 45, "Gb4": 45, "G4": 46, "G#4": 47, "Ab4": 47,
         "A4": 48, "A#4": 49, "Bb4": 49, "B4": 50,
 
         # Sixth Octave (C5-B5)
-        "C5": 51, "C#5": 52, "Db5": 52, "D5": 53, "D#5": 54, "Eb5": 54,
-        "E5": 55, "F5": 56, "F#5": 57, "Gb5": 57, "G5": 58, "G#5": 59, "Ab5": 59,
+        "Cb5": 50, "C5": 51, "C#5": 52, "Db5": 52, "D5": 53, "D#5": 54, "Eb5": 54,
+        "E5": 55, "Fb5": 55, "F5": 56, "F#5": 57, "Gb5": 57, "G5": 58, "G#5": 59, "Ab5": 59,
         "A5": 60, "A#5": 61, "Bb5": 61, "B5": 62,
 
         # Seventh Octave (C6-B6)
-        "C6": 63, "C#6": 64, "Db6": 64, "D6": 65, "D#6": 66, "Eb6": 66,
-        "E6": 67, "F6": 68, "F#6": 69, "Gb6": 69, "G6": 70, "G#6": 71, "Ab6": 71,
+        "Cb6": 62, "C6": 63, "C#6": 64, "Db6": 64, "D6": 65, "D#6": 66, "Eb6": 66,
+        "E6": 67, "Fb6": 67, "F6": 68, "F#6": 69, "Gb6": 69, "G6": 70, "G#6": 71, "Ab6": 71,
         "A6": 72, "A#6": 73, "Bb6": 73, "B6": 74,
 
         # Eighth Octave (C7-B7)
-        "C7": 75, "C#7": 76, "Db7": 76, "D7": 77, "D#7": 78, "Eb7": 78,
-        "E7": 79, "F7": 80, "F#7": 81, "Gb7": 81, "G7": 82, "G#7": 83, "Ab7": 83,
+        "Cb7": 74, "C7": 75, "C#7": 76, "Db7": 76, "D7": 77, "D#7": 78, "Eb7": 78,
+        "E7": 79, "Fb7": 79, "F7": 80, "F#7": 81, "Gb7": 81, "G7": 82, "G#7": 83, "Ab7": 83,
         "A7": 84, "A#7": 85, "Bb7": 85, "B7": 86,
 
         # Ninth Octave (C8)
-        "C8": 87
+        "Cb8": 86, "C8": 87
     }
