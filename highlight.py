@@ -1,8 +1,13 @@
 def clear_highlight(canvas, keys, note_positions):
     for key_name, pos in note_positions.items():
-        if "#" in key_name:
+        print(key_name, pos)
+        if "Cb" in key_name:
+            canvas.itemconfig(keys[pos], fill="white")
+        elif "Fb" in key_name:
+            canvas.itemconfig(keys[pos], fill="white")
+        elif "#" in key_name:
             canvas.itemconfig(keys[pos], fill="black")
-        if "b" in key_name:
+        elif "b" in key_name:
             canvas.itemconfig(keys[pos], fill="black")
         else:
             canvas.itemconfig(keys[pos], fill="white")
