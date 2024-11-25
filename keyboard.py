@@ -1,3 +1,5 @@
+# B# and E# need to be added
+
 def create_keyboard(canvas):
     white_key_width = 27
     white_key_height = 100
