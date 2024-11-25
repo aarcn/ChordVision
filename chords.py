@@ -1,16 +1,16 @@
 chords = {
     # Major Triads
     "Cmaj": ["C4", "E4", "G4"],
-    "C#maj": ["C#4", "F4", "G#4"], "Dbmaj": ["Db4", "F4", "Ab4"],
+    "C#maj": ["C#4", "E#4", "G#4"], "Dbmaj": ["Db4", "F4", "Ab4"],
     "Dmaj": ["D4", "F#4", "A4"],
     "D#maj": ["D#4", "G4", "A#4"], "Ebmaj": ["Eb4", "G4", "Bb4"],
     "Emaj": ["E4", "G#4", "B4"],
     "Fmaj": ["F4", "A4", "C5"],
     "F#maj": ["F#4", "A#4", "C#5"], "Gbmaj": ["Gb4", "Bb4", "Db5"],
     "Gmaj": ["G4", "B4", "D5"],
-    "G#maj": ["G#4", "C5", "D#5"], "Abmaj": ["Ab4", "C5", "Eb5"],
+    "G#maj": ["G#4", "B#4", "D#5"], "Abmaj": ["Ab4", "C5", "Eb5"],
     "Amaj": ["A4", "C#5", "E5"],
-    "A#maj": ["A#4", "D5", "F5"], "Bbmaj": ["Bb4", "D5", "F5"],
+    "A#maj": ["A#4", "D5", "E#5"], "Bbmaj": ["Bb4", "D5", "F5"],
     "Bmaj": ["B4", "D#5", "F#5"], "Cbmaj": ["Cb4", "Eb4", "Gb4"],
 
     # Minor Triads
@@ -20,12 +20,12 @@ chords = {
     "D#min": ["D#4", "F#4", "A#4"], "Ebmin": ["Eb4", "Gb4", "Bb4"],
     "Emin": ["E4", "G4", "B4"],
     "Fmin": ["F4", "Ab4", "C5"],
-    "F#min": ["F#4", "A4", "C#5"], "Gbmin": ["Gb4", "Bbb4", "Db5"],
+    "F#min": ["F#4", "A4", "C#5"], "Gbmin": ["Gb4", "A4", "Db5"],
     "Gmin": ["G4", "Bb4", "D5"],
     "G#min": ["G#4", "B4", "D#5"], "Abmin": ["Ab4", "Cb5", "Eb5"],
     "Amin": ["A4", "C5", "E5"],
-    "A#min": ["A#4", "C#5", "F5"], "Bbmin": ["Bb4", "Db5", "F5"],
-    "Bmin": ["B4", "D5", "F#5"], "Cbmin": ["Cb4", "Ebb4", "Gb4"],
+    "A#min": ["A#4", "C#5", "E#5"], "Bbmin": ["Bb4", "Db5", "F5"],
+    "Bmin": ["B4", "D5", "F#5"], "Cbmin": ["Cb4", "D4", "Gb4"],
 
     # Diminished Triads
     "Cdim": ["C4", "Eb4", "Gb4"],
@@ -34,7 +34,7 @@ chords = {
     "Fdim": ["F4", "Ab4", "Cb5"],
     "Gdim": ["G4", "Bb4", "Db5"],
     "Adim": ["A4", "C5", "Eb5"],
-    "Bdim": ["B4", "D5", "F5"], "Cbdim": ["Cb4", "Ebb4", "Gb4"],
+    "Bdim": ["B4", "D5", "F5"], "Cbdim": ["Cb4", "D4", "Gb4"],
 
     # Augmented Triads
     "Caug": ["C4", "E4", "G#4"],
@@ -43,7 +43,7 @@ chords = {
     "Faug": ["F4", "A4", "C#5"],
     "Gaug": ["G4", "B4", "D#5"],
     "Aaug": ["A4", "C#5", "E#5"],
-    "Baug": ["B4", "D#5", "F#5"], "Cbaug": ["Cb4", "Eb4", "G4"],
+    "Baug": ["B4", "D#5", "G5"], "Cbaug": ["Cb4", "Eb4", "G4"],
 
     # Major 7th Chords
     "Cmaj7": ["C4", "E4", "G4", "B4"],
@@ -61,7 +61,7 @@ chords = {
     "Fmin7": ["F4", "Ab4", "C5", "Eb5"],
     "Gmin7": ["G4", "Bb4", "D5", "F5"],
     "Amin7": ["A4", "C5", "E5", "G5"],
-    "Bmin7": ["B4", "D5", "F#5", "A5"], "Cbmin7": ["Cb4", "Ebb4", "Gb4", "Bbb4"],
+    "Bmin7": ["B4", "D5", "F#5", "A5"], "Cbmin7": ["Cb4", "D4", "Gb4", "A4"],
 
     # Dominant 7th Chords
     "C7": ["C4", "E4", "G4", "Bb4"],
@@ -70,7 +70,7 @@ chords = {
     "F7": ["F4", "A4", "C5", "Eb5"],
     "G7": ["G4", "B4", "D5", "F5"],
     "A7": ["A4", "C#5", "E5", "G5"],
-    "B7": ["B4", "D#5", "F#5", "A5"], "Cb7": ["Cb4", "Eb4", "Gb4", "Bbb4"],
+    "B7": ["B4", "D#5", "F#5", "A5"], "Cb7": ["Cb4", "Eb4", "Gb4", "A4"],
 
     # Minor 7 Flat 5 Chords (Half-Diminished)
     "Cm7b5": ["C4", "Eb4", "Gb4", "Bb4"],
@@ -79,16 +79,16 @@ chords = {
     "Fm7b5": ["F4", "Ab4", "Cb5", "Eb5"],
     "Gm7b5": ["G4", "Bb4", "Db5", "F5"],
     "Am7b5": ["A4", "C5", "Eb5", "G5"],
-    "Bm7b5": ["B4", "D5", "F5", "A5"], "Cbm7b5": ["Cb4", "Ebb4", "Gb4", "Bbb4"],
+    "Bm7b5": ["B4", "D5", "F5", "A5"], "Cbm7b5": ["Cb4", "D4", "Gb4", "A4"],
 
     # Diminished 7th Chords
-    "Cdim7": ["C4", "Eb4", "Gb4", "Bbb4"],
+    "Cdim7": ["C4", "Eb4", "Gb4", "A4"],
     "Ddim7": ["D4", "F4", "Ab4", "Cb5"],
     "Edim7": ["E4", "G4", "Bb4", "Db5"],
-    "Fdim7": ["F4", "Ab4", "Cb5", "Ebb5"],
+    "Fdim7": ["F4", "Ab4", "Cb5", "D5"],
     "Gdim7": ["G4", "Bb4", "Db5", "Fb5"],
     "Adim7": ["A4", "C5", "Eb5", "Gb5"],
-    "Bdim7": ["B4", "D5", "F5", "Ab5"], "Cbdim7": ["Cb4", "Ebb4", "Gb4", "Bbb4"],
+    "Bdim7": ["B4", "D5", "F5", "Ab5"], "Cbdim7": ["Cb4", "D4", "Gb4", "Ab4"],
 
     # Extended Chords
     "C9": ["C4", "E4", "G4", "Bb4", "D5"],
@@ -99,7 +99,7 @@ chords = {
     "Cmin11": ["C4", "Eb4", "G4", "Bb4", "D5", "F5"],
     "C13": ["C4", "E4", "G4", "Bb4", "D5", "F5", "A5"],
     "Cmaj13": ["C4", "E4", "G4", "B4", "D5", "F5", "A5"],
-    "Cmin13": ["C4", "Eb4", "G4", "Bb4", "D5", "F5", "A5"],
+    "Cmin13": ["C4", "Eb4", "G4", "Bb4", "D5", "F5", "Ab5"],
 
     # Sus Chords
     "Csus2": ["C4", "D4", "G4"],
