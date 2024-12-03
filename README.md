@@ -4,6 +4,6 @@
 To-do list:
 <ul>
 <li>Chord progressions</li>
-<li>Suggested chords</li>
-<li>Roman numeral analysis</li>
+<li>Suggested Chords</li>
+<li>Autochord</li>
 </ul>
